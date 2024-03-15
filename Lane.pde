@@ -19,7 +19,7 @@ class Lane extends Rectangle{
     for(int i = 0; i < n; i++){
       obstacles[i] = new Obstacle(offset + spacing * i, index*grid, grid*len, grid, speed);
     }
-    col = color(0);
+    col = color(188,228,236,255);
   }
   
   void check(Frog frog){
